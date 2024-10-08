@@ -78,6 +78,8 @@ This repository contains a FastAPI application along with a setup guide to deplo
 
 - Set up GitHub Actions workflow in your repository to trigger the CI/CD process on specific events (e.g., `push` to `main`).
 
+- Make sure It runs on port 8000 if you are using fastapiapp nginx config from the repo
+
 ### 5. Setup the `deploy.sh` Script
 
 - Copy the `deploy.sh` script from your repository to the server.
@@ -93,7 +95,7 @@ This repository contains a FastAPI application along with a setup guide to deplo
 - Run the `deploy.sh` script:
 
   ```bash
-  ./deploy.ssh
+  ./deploy.sh
   ```
 
 This script will pull the latest changes from your GitHub repository and restart the Docker container with the updated code.
