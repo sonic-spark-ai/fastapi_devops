@@ -66,11 +66,7 @@ This repository contains a FastAPI application along with a setup guide to deplo
 
 - Ensure you have a `Dockerfile` and `docker-compose.yml` file in your repository. If not, copy the existing ones from the repository.
 
-- Build and run the Docker container:
 
-  ```bash
-  sudo docker-compose up --build -d
-  ```
 
 ### 4. Write the FastAPI App and Configure GitHub Workflow
 
